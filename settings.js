@@ -43,11 +43,11 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 
-SESSION_ID: process.env.SESSION_ID === undefined ? 'put_your_session' : process.env.SESSION_ID, // put your session id || ඔයාගෙ සෙසන් එක දාන්න...😌❤
-TYPE: process.env.TYPE === undefined ? 'nonbutton' : process.env.TYPE, // if you need buttons put 'button' if you need nonbutton ( number reply ) put 'nonbutton' || බටන් ඕනි නම් 'button' දාන්න number reply ඕනි නම් nonbutton දාන්න...😌❤
-PREFIX: process.env.PREFIX || '.' ,
+SESSION_ID: process.env.SESSION_ID === undefined ? 'Manu-MD&oC8XDQYa#0R_v7_inr4B0IMik5qmxpT7QFOWBR46YFBH3P2gXM0M' : process.env.SESSION_ID, // put your session id || ඔයාගෙ සෙසන් එක දාන්න...😌❤
+TYPE: process.env.TYPE === undefined ? 'button' : process.env.TYPE, // if you need buttons put 'button' if you need nonbutton ( number reply ) put 'nonbutton' || බටන් ඕනි නම් 'button' දාන්න number reply ඕනි නම් nonbutton දාන්න...😌❤
+PREFIX: process.env.PREFIX || ',' ,
 PORT: process.env.PORT === undefined ? "8000" : process.env.PORT,
-SUDO: process.env.SUDO === undefined ? '94742274855' : process.env.SUDO,
+SUDO: process.env.SUDO === undefined ? '94775700815' : process.env.SUDO,
 LANGUAGE: process.env.LANGUAGE === undefined ? 'EN' : process.env.LANGUAGE,
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS === undefined ?"true" : process.env.AUTO_READ_STATUS,
 MODE: process.env.MODE === undefined ?"public" : process.env.MODE,
@@ -64,7 +64,7 @@ RECORDING: process.env.RECORDING === undefined ? "true" : process.env.RECORDING,
 AI_CHAT: process.env.AI_CHAT === undefined ? "false" : process.env.AI_CHAT,
 AUTO_REACT: process.env.AUTO_REACT === undefined ? "false" : process.env.AUTO_REACT,
 AUTO_TYPING: process.env.AUTO_TYPING === undefined ? 'false' : process.env.AUTO_TYPING,
-AUTO_BIO: process.env.AUTO_BIO === undefined ? 'true' : process.env.AUTO_BIO,
+AUTO_BIO: process.env.AUTO_BIO === undefined ? 'false' : process.env.AUTO_BIO,
 ANTI_STICKER: process.env.ANTI_STICKER === undefined ? 'false' : process.env.ANTI_STICKER,
 ANTI_PHOTO: process.env.ANTI_PHOTO === undefined ? 'false' : process.env.ANTI_PHOTO,
 MOROCCO_BLOCK: process.env.MOROCCO_BLOCK === undefined ? 'false' : process.env.MOROCCO_BLOCK,
